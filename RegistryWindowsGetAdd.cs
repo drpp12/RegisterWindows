@@ -2,7 +2,7 @@ using Microsoft.Win32;
 
 public class RegistryWindowsGetAdd
 {
-    ///Declaracion de Keys
+    ///Declare Var 
     const string userRoot = "HKEY_CURRENT_USER";
     const string subkey = "KeyNameXX";
         const string keyName = userRoot + "\\" + subkey;
